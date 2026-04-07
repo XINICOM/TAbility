@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TAbility (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "TAbility (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
