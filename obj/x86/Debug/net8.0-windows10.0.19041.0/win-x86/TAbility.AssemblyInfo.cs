@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XINICOM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbfbd9fd689394f9fb6254d6e12bd3c0dba7c675")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cbec909dde72efef70c7b07301318d42828e588")]
 [assembly: System.Reflection.AssemblyProductAttribute("TAbility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TAbility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
