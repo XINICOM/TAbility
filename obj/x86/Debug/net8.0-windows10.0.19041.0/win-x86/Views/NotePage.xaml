@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Page
+<Page x:ConnectionId='1'
     x:Class="TAbility.Views.NotePage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -20,13 +20,14 @@
         </Grid.ColumnDefinitions>
 
         <TextBox x:ConnectionId='2' x:Name="NoteEditor"
-         AcceptsReturn="True"
-         TextWrapping="Wrap"
-         PlaceholderText="Enter your note"
-         Header="New note"
-         ScrollViewer.VerticalScrollBarVisibility="Auto"
-         Width="400"
-         Grid.Column="1"/>
+                                                            
+                 AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 PlaceholderText="Enter your note"
+                                                            
+                 ScrollViewer.VerticalScrollBarVisibility="Auto"
+                 Width="400"
+                 Grid.Column="1"/>
 
         <StackPanel Orientation="Horizontal"
             HorizontalAlignment="Right"

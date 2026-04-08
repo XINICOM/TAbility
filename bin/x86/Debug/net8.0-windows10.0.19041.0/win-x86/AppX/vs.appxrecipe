@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-04-08T06:10:30.765</Modified>
+      <Modified>2026-04-08T13:27:11.802</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -39,11 +39,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>TAbility.exe</PackagePath>
-      <Modified>2026-04-08T06:10:30.301</Modified>
+      <Modified>2026-04-08T13:27:10.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\TAbility.dll">
       <PackagePath>TAbility.dll</PackagePath>
-      <Modified>2026-04-08T06:10:30.299</Modified>
+      <Modified>2026-04-08T13:27:10.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XINIC\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.25\runtimes\win-x86\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -927,7 +927,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\TAbility.deps.json">
       <PackagePath>TAbility.deps.json</PackagePath>
-      <Modified>2026-04-08T06:10:30.601</Modified>
+      <Modified>2026-04-08T13:27:11.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -963,7 +963,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2026-04-08T06:10:30.656</Modified>
+      <Modified>2026-04-08T13:27:11.533</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
