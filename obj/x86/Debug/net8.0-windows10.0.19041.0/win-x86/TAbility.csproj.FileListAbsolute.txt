@@ -266,7 +266,8 @@ D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Mult
 D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ProjectArchitectures.txt
 D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638789222360000000.json
 D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\TAbility.sourcelink.json
-D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\NotePage.g.i.cs
-D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\NotePage.g.cs
-D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\NotePage.xaml
-D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\NotePage.xbf
+D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\NotePage.xbf
+D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\NotePage.g.i.cs
+D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\NotePage.g.cs
+D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\NotePage.xaml
+D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\NotePage.xbf

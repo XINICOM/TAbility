@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page
-    x:Class="TAbility.NotePage"
+    x:Class="TAbility.Views.NotePage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:TAbility"
@@ -32,8 +32,8 @@
             HorizontalAlignment="Right"
             Spacing="4"
             Grid.Row="1" Grid.Column="1">
-            <Button Content="Save" Style="{StaticResource AccentButtonStyle}"/>
-            <Button Content="Delete"/>
+            <Button Content="Save" Style="{StaticResource AccentButtonStyle}" Click="SaveButton_Click"/>
+            <Button Content="Delete" Click="DeleteButton_Click"/>
         </StackPanel>
     </Grid>
 </Page>
