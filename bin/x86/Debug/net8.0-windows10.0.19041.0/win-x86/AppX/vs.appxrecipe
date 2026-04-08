@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>1f51e2a3-da66-412c-8efd-8172d1736bd6</PackageIdentityName>
+    <PackageIdentityName>tability-package</PackageIdentityName>
     <PackageIdentityPublisher>CN=XINIC</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
@@ -18,18 +18,18 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BE8A7C469B119567FAB3C40BA7A610F475AB72ECE45B19C5DF61C4B4152D0FBF</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>1f51e2a3-da66-412c-8efd-8172d1736bd6_1.0.0.0_x86__6jqbvxqyaede0</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>1f51e2a3-da66-412c-8efd-8172d1736bd6_6jqbvxqyaede0!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>1f51e2a3-da66-412c-8efd-8172d1736bd6</RegisteredPackageID>
+    <RegisteredManifestChecksum>D141BA60776DE4AE6AD34E30B3AC2677B847DF5DCABF0575DECA265F567577EF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>tability-package_1.1.0.0_x86__6jqbvxqyaede0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>tability-package_6jqbvxqyaede0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>tability-package</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=XINIC</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2026-04-08T14:30:52.724</Modified>
+      <Modified>2026-04-08T15:02:04.043</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -39,11 +39,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>TAbility.exe</PackagePath>
-      <Modified>2026-04-08T14:30:52.418</Modified>
+      <Modified>2026-04-08T15:02:03.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\TAbility.dll">
       <PackagePath>TAbility.dll</PackagePath>
-      <Modified>2026-04-08T14:30:52.415</Modified>
+      <Modified>2026-04-08T15:02:03.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XINIC\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.25\runtimes\win-x86\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -927,7 +927,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\TAbility.deps.json">
       <PackagePath>TAbility.deps.json</PackagePath>
-      <Modified>2026-04-08T13:43:03.625</Modified>
+      <Modified>2026-04-08T14:52:51.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -963,7 +963,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2026-04-08T14:30:52.611</Modified>
+      <Modified>2026-04-08T15:02:03.912</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -17,7 +17,7 @@ namespace TAbility.Models
 
         public Note()
         {
-            Filename = "notes" + DateTime.Now.ToBinary().ToString() + ".txt";
+            Filename = "notes" + DateTime.Now.ToBinary().ToString() + ".tant";
             //Console.WriteLine("successname");
             Debug.WriteLine("successname");
             //Text = "successname";
