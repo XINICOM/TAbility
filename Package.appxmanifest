@@ -9,15 +9,15 @@
   IgnorableNamespaces="uap rescap systemai">
 
   <Identity
-    Name="1f51e2a3-da66-412c-8efd-8172d1736bd6"
-    Publisher="CN=XINIC"
-    Version="1.0.0.0" />
+    Name="tability-package"
+    Publisher="CN=XINICOM"
+    Version="1.1.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="1f51e2a3-da66-412c-8efd-8172d1736bd6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>TAbility</DisplayName>
-    <PublisherDisplayName>XINIC</PublisherDisplayName>
+    <PublisherDisplayName>XINICOM</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

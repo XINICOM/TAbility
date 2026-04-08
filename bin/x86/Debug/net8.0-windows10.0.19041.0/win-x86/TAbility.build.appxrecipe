@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>1f51e2a3-da66-412c-8efd-8172d1736bd6</PackageIdentityName>
-    <PackageIdentityPublisher>CN=XINIC</PackageIdentityPublisher>
+    <PackageIdentityName>tability-package</PackageIdentityName>
+    <PackageIdentityPublisher>CN=XINICOM</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
