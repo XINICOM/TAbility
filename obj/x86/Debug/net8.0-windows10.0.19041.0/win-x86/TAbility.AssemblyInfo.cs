@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TAbility")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c07b20ef8a8d0c82cf4ae780e72ecaa8f0891bda")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+950a84ee013c5301b7bc1eb3707abb377c970131")]
 [assembly: System.Reflection.AssemblyProductAttribute("TAbility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TAbility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

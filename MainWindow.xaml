@@ -8,19 +8,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Title="TAbility">
-<<<<<<<<< Temporary merge branch 1
-
-    <!--<Window.SystemBackdrop>-->
-        <!--<micabackdrop />
-    </window.systembackdrop>
-
-    <grid>
-
-    </grid>-->
-
-=========
-    
->>>>>>>>> Temporary merge branch 2
     <Window.SystemBackdrop>
         <!--<micabackdrop kind="base"/>-->
         <MicaBackdrop Kind="Base" />
