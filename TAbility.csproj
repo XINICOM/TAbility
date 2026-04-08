@@ -17,6 +17,10 @@
 	<PropertyGroup>
 		<WindowsSdkPackageVersion>10.0.19041.38</WindowsSdkPackageVersion>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="NotePage.xaml" />
+	</ItemGroup>
   <ItemGroup>
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -43,6 +47,11 @@
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260317003" />
     <PackageReference Include="Microsoft.WindowsAppSDK.Runtime" Version="1.8.260317003" />
     <PackageReference Include="Microsoft.WindowsAppSDK.WinUI" Version="1.8.260224000" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="NotePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
   <!--
