@@ -29,17 +29,19 @@ namespace TAbility.Views
         public NotePage()
         {
             InitializeComponent();
-            //Loaded += NotePage_Loaded;
         }
-
-        //private async void NotePage_Loaded(object sender, RoutedEventArgs e)
-        //{
-        //    noteFile = (StorageFile)await storageFolder.TryGetItemAsync(fileName);
-        //    if (noteFile is not null)
-        //    {
-        //        NoteEditor.Text = await FileIO.ReadTextAsync(noteFile);
-        //    }
-        //}
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            if (e.Parameter is Note note)
+            {
+                noteModel = note;
+            }
+            else
+            {
+                noteModel = new Note();
+            }
+        }
 
         private async void SaveButton_Click(object sender, RoutedEventArgs e)
         {
@@ -54,6 +56,10 @@ namespace TAbility.Views
             if (noteModel is not null)
             {
                 await noteModel.DeleteAsync();
+            }
+            if (Frame.CanGoBack == true)
+            {
+                Frame.GoBack();
             }
         }
     }

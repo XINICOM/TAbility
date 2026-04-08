@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,11 +18,16 @@ namespace TAbility.Models
         public Note()
         {
             Filename = "notes" + DateTime.Now.ToBinary().ToString() + ".txt";
+            //Console.WriteLine("successname");
+            Debug.WriteLine("successname");
+            //Text = "successname";
         }
 
         public async Task SaveAsync()
         {
             StorageFile noteFile = (StorageFile)await storageFolder.TryGetItemAsync(Filename);
+            //Console.WriteLine("successFloder");
+            //Text="successFloder";
             if (noteFile is null)
             {
                 noteFile = await storageFolder.CreateFileAsync(Filename, CreationCollisionOption.ReplaceExisting);

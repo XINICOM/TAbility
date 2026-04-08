@@ -271,3 +271,8 @@ D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\View
 D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\NotePage.g.cs
 D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\NotePage.xaml
 D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\NotePage.xbf
+D:\ZYC\VSDevelope\TAbility\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\AllNotesPage.xbf
+D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\AllNotesPage.g.i.cs
+D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\AllNotesPage.g.cs
+D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\AllNotesPage.xaml
+D:\ZYC\VSDevelope\TAbility\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Views\AllNotesPage.xbf

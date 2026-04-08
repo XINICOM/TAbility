@@ -251,12 +251,12 @@ namespace TAbility.TAbility_XamlTypeInfo
             _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.ItemContainer";
             _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.ItemsView";
             _typeNameTable[23] = "Microsoft.UI.Xaml.IElementFactory";
-            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode";
-            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.Layout";
-            _typeNameTable[26] = "Int32";
-            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider";
-            _typeNameTable[28] = "Microsoft.UI.Xaml.Controls.ScrollView";
-            _typeNameTable[29] = "System.Collections.Generic.IReadOnlyList`1<Object>";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.Layout";
+            _typeNameTable[25] = "Int32";
+            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.ScrollView";
+            _typeNameTable[28] = "System.Collections.Generic.IReadOnlyList`1<Object>";
+            _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode";
             _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.Primitives.IScrollController";
             _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.UniformGridLayout";
             _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.VirtualizingLayout";
@@ -294,12 +294,12 @@ namespace TAbility.TAbility_XamlTypeInfo
             _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.ItemContainer);
             _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsView);
             _typeTable[23] = typeof(global::Microsoft.UI.Xaml.IElementFactory);
-            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode);
-            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.Layout);
-            _typeTable[26] = typeof(global::System.Int32);
-            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider);
-            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollView);
-            _typeTable[29] = typeof(global::System.Collections.Generic.IReadOnlyList<global::System.Object>);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.Layout);
+            _typeTable[25] = typeof(global::System.Int32);
+            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollView);
+            _typeTable[28] = typeof(global::System.Collections.Generic.IReadOnlyList<global::System.Object>);
+            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode);
             _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.IScrollController);
             _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayout);
             _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.VirtualizingLayout);
@@ -353,8 +353,8 @@ namespace TAbility.TAbility_XamlTypeInfo
         private object Activate_19_MainWindow() { return new global::TAbility.MainWindow(); }
         private object Activate_21_ItemContainer() { return new global::Microsoft.UI.Xaml.Controls.ItemContainer(); }
         private object Activate_22_ItemsView() { return new global::Microsoft.UI.Xaml.Controls.ItemsView(); }
-        private object Activate_27_ItemCollectionTransitionProvider() { return new global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider(); }
-        private object Activate_28_ScrollView() { return new global::Microsoft.UI.Xaml.Controls.ScrollView(); }
+        private object Activate_26_ItemCollectionTransitionProvider() { return new global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider(); }
+        private object Activate_27_ScrollView() { return new global::Microsoft.UI.Xaml.Controls.ScrollView(); }
         private object Activate_31_UniformGridLayout() { return new global::Microsoft.UI.Xaml.Controls.UniformGridLayout(); }
         private object Activate_32_VirtualizingLayout() { return new global::Microsoft.UI.Xaml.Controls.VirtualizingLayout(); }
         private object Activate_38_NotePage() { return new global::TAbility.Views.NotePage(); }
@@ -370,11 +370,11 @@ namespace TAbility.TAbility_XamlTypeInfo
         private void StaticInitializer_19_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::TAbility.MainWindow).TypeHandle);
         private void StaticInitializer_21_ItemContainer() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemContainer).TypeHandle);
         private void StaticInitializer_22_ItemsView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsView).TypeHandle);
-        private void StaticInitializer_24_ItemsViewSelectionMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode).TypeHandle);
-        private void StaticInitializer_25_Layout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Layout).TypeHandle);
-        private void StaticInitializer_27_ItemCollectionTransitionProvider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider).TypeHandle);
-        private void StaticInitializer_28_ScrollView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ScrollView).TypeHandle);
-        private void StaticInitializer_29_IReadOnlyList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IReadOnlyList<global::System.Object>).TypeHandle);
+        private void StaticInitializer_24_Layout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Layout).TypeHandle);
+        private void StaticInitializer_26_ItemCollectionTransitionProvider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider).TypeHandle);
+        private void StaticInitializer_27_ScrollView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ScrollView).TypeHandle);
+        private void StaticInitializer_28_IReadOnlyList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IReadOnlyList<global::System.Object>).TypeHandle);
+        private void StaticInitializer_29_ItemsViewSelectionMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode).TypeHandle);
         private void StaticInitializer_30_IScrollController() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.Primitives.IScrollController).TypeHandle);
         private void StaticInitializer_31_UniformGridLayout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.UniformGridLayout).TypeHandle);
         private void StaticInitializer_32_VirtualizingLayout() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.VirtualizingLayout).TypeHandle);
@@ -468,9 +468,9 @@ namespace TAbility.TAbility_XamlTypeInfo
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.TitleBar.Content");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Title");
-                userType.AddMemberName("IsBackButtonVisible");
-                userType.AddMemberName("IsBackButtonEnabled");
                 userType.AddMemberName("IconSource");
+                userType.AddMemberName("IsBackButtonEnabled");
+                userType.AddMemberName("IsBackButtonVisible");
                 userType.AddMemberName("IsPaneToggleButtonVisible");
                 userType.AddMemberName("LeftHeader");
                 userType.AddMemberName("RightHeader");
@@ -550,14 +550,14 @@ namespace TAbility.TAbility_XamlTypeInfo
                 userType.StaticInitializer = StaticInitializer_22_ItemsView;
                 userType.AddMemberName("ItemsSource");
                 userType.AddMemberName("ItemTemplate");
-                userType.AddMemberName("SelectionMode");
-                userType.AddMemberName("IsItemInvokedEnabled");
                 userType.AddMemberName("Layout");
                 userType.AddMemberName("CurrentItemIndex");
+                userType.AddMemberName("IsItemInvokedEnabled");
                 userType.AddMemberName("ItemTransitionProvider");
                 userType.AddMemberName("ScrollView");
                 userType.AddMemberName("SelectedItem");
                 userType.AddMemberName("SelectedItems");
+                userType.AddMemberName("SelectionMode");
                 userType.AddMemberName("VerticalScrollController");
                 xamlType = userType;
                 break;
@@ -566,47 +566,47 @@ namespace TAbility.TAbility_XamlTypeInfo
                 xamlType = new global::TAbility.TAbility_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 24:   //  Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode
-                userType = new global::TAbility.TAbility_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_24_ItemsViewSelectionMode;
-                userType.AddEnumValue("None", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.None);
-                userType.AddEnumValue("Single", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.Single);
-                userType.AddEnumValue("Multiple", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.Multiple);
-                userType.AddEnumValue("Extended", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.Extended);
-                xamlType = userType;
-                break;
-
-            case 25:   //  Microsoft.UI.Xaml.Controls.Layout
+            case 24:   //  Microsoft.UI.Xaml.Controls.Layout
                 userType = new global::TAbility.TAbility_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_25_Layout;
+                userType.StaticInitializer = StaticInitializer_24_Layout;
                 userType.AddMemberName("IndexBasedLayoutOrientation");
                 xamlType = userType;
                 break;
 
-            case 26:   //  Int32
+            case 25:   //  Int32
                 xamlType = new global::TAbility.TAbility_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 27:   //  Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider
+            case 26:   //  Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider
                 userType = new global::TAbility.TAbility_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_27_ItemCollectionTransitionProvider;
+                userType.StaticInitializer = StaticInitializer_26_ItemCollectionTransitionProvider;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 28:   //  Microsoft.UI.Xaml.Controls.ScrollView
+            case 27:   //  Microsoft.UI.Xaml.Controls.ScrollView
                 userType = new global::TAbility.TAbility_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.StaticInitializer = StaticInitializer_28_ScrollView;
+                userType.StaticInitializer = StaticInitializer_27_ScrollView;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.ScrollView.Content");
                 userType.AddMemberName("Content");
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 29:   //  System.Collections.Generic.IReadOnlyList`1<Object>
+            case 28:   //  System.Collections.Generic.IReadOnlyList`1<Object>
                 userType = new global::TAbility.TAbility_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_29_IReadOnlyList;
+                userType.StaticInitializer = StaticInitializer_28_IReadOnlyList;
                 userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 29:   //  Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode
+                userType = new global::TAbility.TAbility_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.StaticInitializer = StaticInitializer_29_ItemsViewSelectionMode;
+                userType.AddEnumValue("None", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.None);
+                userType.AddEnumValue("Single", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.Single);
+                userType.AddEnumValue("Multiple", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.Multiple);
+                userType.AddEnumValue("Extended", global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode.Extended);
                 xamlType = userType;
                 break;
 
@@ -806,15 +806,15 @@ namespace TAbility.TAbility_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.TitleBar)instance;
             that.Title = (global::System.String)Value;
         }
-        private object get_4_TitleBar_IsBackButtonVisible(object instance)
+        private object get_4_TitleBar_IconSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TitleBar)instance;
-            return that.IsBackButtonVisible;
+            return that.IconSource;
         }
-        private void set_4_TitleBar_IsBackButtonVisible(object instance, object Value)
+        private void set_4_TitleBar_IconSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TitleBar)instance;
-            that.IsBackButtonVisible = (global::System.Boolean)Value;
+            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
         }
         private object get_5_TitleBar_IsBackButtonEnabled(object instance)
         {
@@ -826,15 +826,15 @@ namespace TAbility.TAbility_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.TitleBar)instance;
             that.IsBackButtonEnabled = (global::System.Boolean)Value;
         }
-        private object get_6_TitleBar_IconSource(object instance)
+        private object get_6_TitleBar_IsBackButtonVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TitleBar)instance;
-            return that.IconSource;
+            return that.IsBackButtonVisible;
         }
-        private void set_6_TitleBar_IconSource(object instance, object Value)
+        private void set_6_TitleBar_IsBackButtonVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TitleBar)instance;
-            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
+            that.IsBackButtonVisible = (global::System.Boolean)Value;
         }
         private object get_7_TitleBar_IsPaneToggleButtonVisible(object instance)
         {
@@ -921,75 +921,75 @@ namespace TAbility.TAbility_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.ItemTemplate = (global::Microsoft.UI.Xaml.IElementFactory)Value;
         }
-        private object get_16_ItemsView_SelectionMode(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
-            return that.SelectionMode;
-        }
-        private void set_16_ItemsView_SelectionMode(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
-            that.SelectionMode = (global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode)Value;
-        }
-        private object get_17_ItemsView_IsItemInvokedEnabled(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
-            return that.IsItemInvokedEnabled;
-        }
-        private void set_17_ItemsView_IsItemInvokedEnabled(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
-            that.IsItemInvokedEnabled = (global::System.Boolean)Value;
-        }
-        private object get_18_ItemsView_Layout(object instance)
+        private object get_16_ItemsView_Layout(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.Layout;
         }
-        private void set_18_ItemsView_Layout(object instance, object Value)
+        private void set_16_ItemsView_Layout(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.Layout = (global::Microsoft.UI.Xaml.Controls.Layout)Value;
         }
-        private object get_19_ItemsView_CurrentItemIndex(object instance)
+        private object get_17_ItemsView_CurrentItemIndex(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.CurrentItemIndex;
         }
-        private object get_20_ItemsView_ItemTransitionProvider(object instance)
+        private object get_18_ItemsView_IsItemInvokedEnabled(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
+            return that.IsItemInvokedEnabled;
+        }
+        private void set_18_ItemsView_IsItemInvokedEnabled(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
+            that.IsItemInvokedEnabled = (global::System.Boolean)Value;
+        }
+        private object get_19_ItemsView_ItemTransitionProvider(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.ItemTransitionProvider;
         }
-        private void set_20_ItemsView_ItemTransitionProvider(object instance, object Value)
+        private void set_19_ItemsView_ItemTransitionProvider(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             that.ItemTransitionProvider = (global::Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider)Value;
         }
-        private object get_21_ItemsView_ScrollView(object instance)
+        private object get_20_ItemsView_ScrollView(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.ScrollView;
         }
-        private object get_22_ScrollView_Content(object instance)
+        private object get_21_ScrollView_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
             return that.Content;
         }
-        private void set_22_ScrollView_Content(object instance, object Value)
+        private void set_21_ScrollView_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
             that.Content = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_23_ItemsView_SelectedItem(object instance)
+        private object get_22_ItemsView_SelectedItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.SelectedItem;
         }
-        private object get_24_ItemsView_SelectedItems(object instance)
+        private object get_23_ItemsView_SelectedItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
             return that.SelectedItems;
+        }
+        private object get_24_ItemsView_SelectionMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
+            return that.SelectionMode;
+        }
+        private void set_24_ItemsView_SelectionMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ItemsView)instance;
+            that.SelectionMode = (global::Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode)Value;
         }
         private object get_25_ItemsView_VerticalScrollController(object instance)
         {
@@ -1172,12 +1172,12 @@ namespace TAbility.TAbility_XamlTypeInfo
                 xamlMember.Getter = get_3_TitleBar_Title;
                 xamlMember.Setter = set_3_TitleBar_Title;
                 break;
-            case "Microsoft.UI.Xaml.Controls.TitleBar.IsBackButtonVisible":
+            case "Microsoft.UI.Xaml.Controls.TitleBar.IconSource":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TitleBar");
-                xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Boolean");
+                xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_TitleBar_IsBackButtonVisible;
-                xamlMember.Setter = set_4_TitleBar_IsBackButtonVisible;
+                xamlMember.Getter = get_4_TitleBar_IconSource;
+                xamlMember.Setter = set_4_TitleBar_IconSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.TitleBar.IsBackButtonEnabled":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TitleBar");
@@ -1186,12 +1186,12 @@ namespace TAbility.TAbility_XamlTypeInfo
                 xamlMember.Getter = get_5_TitleBar_IsBackButtonEnabled;
                 xamlMember.Setter = set_5_TitleBar_IsBackButtonEnabled;
                 break;
-            case "Microsoft.UI.Xaml.Controls.TitleBar.IconSource":
+            case "Microsoft.UI.Xaml.Controls.TitleBar.IsBackButtonVisible":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TitleBar");
-                xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
+                xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_TitleBar_IconSource;
-                xamlMember.Setter = set_6_TitleBar_IconSource;
+                xamlMember.Getter = get_6_TitleBar_IsBackButtonVisible;
+                xamlMember.Setter = set_6_TitleBar_IsBackButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.TitleBar.IsPaneToggleButtonVisible":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TitleBar");
@@ -1256,67 +1256,67 @@ namespace TAbility.TAbility_XamlTypeInfo
                 xamlMember.Getter = get_15_ItemsView_ItemTemplate;
                 xamlMember.Setter = set_15_ItemsView_ItemTemplate;
                 break;
-            case "Microsoft.UI.Xaml.Controls.ItemsView.SelectionMode":
-                userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
-                xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "SelectionMode", "Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_16_ItemsView_SelectionMode;
-                xamlMember.Setter = set_16_ItemsView_SelectionMode;
-                break;
-            case "Microsoft.UI.Xaml.Controls.ItemsView.IsItemInvokedEnabled":
-                userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
-                xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "IsItemInvokedEnabled", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_17_ItemsView_IsItemInvokedEnabled;
-                xamlMember.Setter = set_17_ItemsView_IsItemInvokedEnabled;
-                break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.Layout":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "Layout", "Microsoft.UI.Xaml.Controls.Layout");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_18_ItemsView_Layout;
-                xamlMember.Setter = set_18_ItemsView_Layout;
+                xamlMember.Getter = get_16_ItemsView_Layout;
+                xamlMember.Setter = set_16_ItemsView_Layout;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.CurrentItemIndex":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "CurrentItemIndex", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_19_ItemsView_CurrentItemIndex;
+                xamlMember.Getter = get_17_ItemsView_CurrentItemIndex;
                 xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ItemsView.IsItemInvokedEnabled":
+                userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
+                xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "IsItemInvokedEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_ItemsView_IsItemInvokedEnabled;
+                xamlMember.Setter = set_18_ItemsView_IsItemInvokedEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.ItemTransitionProvider":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "ItemTransitionProvider", "Microsoft.UI.Xaml.Controls.ItemCollectionTransitionProvider");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_ItemsView_ItemTransitionProvider;
-                xamlMember.Setter = set_20_ItemsView_ItemTransitionProvider;
+                xamlMember.Getter = get_19_ItemsView_ItemTransitionProvider;
+                xamlMember.Setter = set_19_ItemsView_ItemTransitionProvider;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.ScrollView":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "ScrollView", "Microsoft.UI.Xaml.Controls.ScrollView");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_ItemsView_ScrollView;
+                xamlMember.Getter = get_20_ItemsView_ScrollView;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ScrollView.Content":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
                 xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "Content", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_ScrollView_Content;
-                xamlMember.Setter = set_22_ScrollView_Content;
+                xamlMember.Getter = get_21_ScrollView_Content;
+                xamlMember.Setter = set_21_ScrollView_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.SelectedItem":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_23_ItemsView_SelectedItem;
+                xamlMember.Getter = get_22_ItemsView_SelectedItem;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.SelectedItems":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
                 xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "SelectedItems", "System.Collections.Generic.IReadOnlyList`1<Object>");
-                xamlMember.Getter = get_24_ItemsView_SelectedItems;
+                xamlMember.Getter = get_23_ItemsView_SelectedItems;
                 xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ItemsView.SelectionMode":
+                userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
+                xamlMember = new global::TAbility.TAbility_XamlTypeInfo.XamlMember(this, "SelectionMode", "Microsoft.UI.Xaml.Controls.ItemsViewSelectionMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_24_ItemsView_SelectionMode;
+                xamlMember.Setter = set_24_ItemsView_SelectionMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.ItemsView.VerticalScrollController":
                 userType = (global::TAbility.TAbility_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsView");
