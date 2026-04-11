@@ -45,7 +45,7 @@ namespace TAbility.Views
             global::Microsoft.UI.Xaml.Markup.IComponentConnector,
             IAllNotesPage_Bindings
         {
-            private global::TAbility.Models.Note dataRoot;
+            private global::WinUINotes.Bus.Models.Note dataRoot;
             private bool initialized = false;
             private const int NOT_PHASED = (1 << 31);
             private const int DATA_CHANGED = (1 << 30);
@@ -151,7 +151,7 @@ namespace TAbility.Views
                         this.initialized = true;
                         break;
                 }
-                this.Update_(global::WinRT.CastExtensions.As<global::TAbility.Models.Note>(item), 1 << phase);
+                this.Update_(global::WinRT.CastExtensions.As<global::WinUINotes.Bus.Models.Note>(item), 1 << phase);
             }
 
             public void Recycle()
@@ -187,14 +187,14 @@ namespace TAbility.Views
             {
                 if (newDataRoot != null)
                 {
-                    this.dataRoot = global::WinRT.CastExtensions.As<global::TAbility.Models.Note>(newDataRoot);
+                    this.dataRoot = global::WinRT.CastExtensions.As<global::WinUINotes.Bus.Models.Note>(newDataRoot);
                     return true;
                 }
                 return false;
             }
 
             // Update methods for each path node used in binding steps.
-            private void Update_(global::TAbility.Models.Note obj, int phase)
+            private void Update_(global::WinUINotes.Bus.Models.Note obj, int phase)
             {
                 if (obj != null)
                 {
@@ -358,7 +358,7 @@ namespace TAbility.Views
                     }
                 }
             }
-            private void Update_notesModel_Notes(global::System.Collections.ObjectModel.ObservableCollection<global::TAbility.Models.Note> obj, int phase)
+            private void Update_notesModel_Notes(global::System.Collections.ObjectModel.ObservableCollection<global::WinUINotes.Bus.Models.Note> obj, int phase)
             {
                 if ((phase & ((1 << 0) | NOT_PHASED )) != 0)
                 {
