@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WykTFkQegZ4=",
+  "dgSpecHash": "/zZ/CwEi3eI=",
   "success": true,
   "projectFilePath": "D:\\ZYC\\VSDevelope\\TAbility\\TAbility.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\XINIC\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
     "C:\\Users\\XINIC\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
-    "C:\\Users\\XINIC\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.26100.4654\\microsoft.windows.sdk.buildtools.10.0.26100.4654.nupkg.sha512",
+    "C:\\Users\\XINIC\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.28000.1721\\microsoft.windows.sdk.buildtools.10.0.28000.1721.nupkg.sha512",
     "C:\\Users\\XINIC\\.nuget\\packages\\microsoft.windows.sdk.buildtools.msix\\1.7.20250829.1\\microsoft.windows.sdk.buildtools.msix.1.7.20250829.1.nupkg.sha512",
     "C:\\Users\\XINIC\\.nuget\\packages\\microsoft.windowsappsdk\\1.8.260317003\\microsoft.windowsappsdk.1.8.260317003.nupkg.sha512",
     "C:\\Users\\XINIC\\.nuget\\packages\\microsoft.windowsappsdk.ai\\1.8.53\\microsoft.windowsappsdk.ai.1.8.53.nupkg.sha512",

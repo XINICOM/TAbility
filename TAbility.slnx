@@ -4,6 +4,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="../WinUINotes.Bus/WinUINotes.Bus.csproj" Id="5bb52d5d-e9e9-4719-a76b-0519d8aaab2b" />
   <Project Path="TAbility.csproj">
     <Platform Solution="*|ARM64" Project="ARM64" />
     <Platform Solution="*|x64" Project="x64" />
