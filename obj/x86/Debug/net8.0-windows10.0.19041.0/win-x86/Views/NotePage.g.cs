@@ -194,7 +194,7 @@ namespace TAbility.Views
                 }
                 this.CompleteUpdate(phase);
             }
-            private void Update_noteModel(global::TAbility.Models.Note obj, int phase)
+            private void Update_noteModel(global::WinUINotes.Bus.Models.Note obj, int phase)
             {
                 if (obj != null)
                 {
